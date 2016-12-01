@@ -4,6 +4,6 @@
   "private": true,
   "main": "src/controller.js",
   "dependencies": {
-    "corespring-legacy-drag-and-drop-inline": "PieLabs/corespring-legacy-drag-and-drop-inline"
+    "corespring-legacy-drag-and-drop-inline": "corespring/corespring-legacy-drag-and-drop-inline"
   }
 }
