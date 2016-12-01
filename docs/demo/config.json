@@ -1,0 +1,62 @@
+{
+  "pies": [
+    {
+      "id": "1",
+      "pie": {
+        "name": "corespring-drag-and-drop-inline-ng15",
+        "version": "1.0.0"
+      },
+      "correctResponse": {
+        "aa_1": [
+          "c_1"
+        ]
+      },
+      "feedback": {
+        "correctFeedbackType": "default",
+        "partialFeedbackType": "default",
+        "incorrectFeedbackType": "default"
+      },
+      "allowPartialScoring": false,
+      "partialScoring": [
+        {}
+      ],
+      "model": {
+        "answerAreaXhtml": "<div>​<answer-area-inline-csdndi id=\"aa_1\"></answer-area-inline-csdndi>​</div>",
+        "answerAreas": [
+          {
+            "id": "aa_1"
+          }
+        ],
+        "choices": [
+          {
+            "label": "one",
+            "labelType": "text",
+            "id": "c_1"
+          },
+          {
+            "label": "two",
+            "labelType": "text",
+            "id": "c_2"
+          },
+          {
+            "label": "three",
+            "labelType": "text",
+            "id": "c_3"
+          },
+          {
+            "label": "four",
+            "labelType": "text",
+            "id": "c_4"
+          }
+        ],
+        "config": {
+          "shuffle": false,
+          "choiceAreaLabel": "",
+          "choiceAreaLayout": "horizontal",
+          "choiceAreaPosition": "below"
+        }
+      }
+    }
+  ]
+}
+
