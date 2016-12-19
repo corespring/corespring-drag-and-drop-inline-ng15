@@ -6,54 +6,59 @@
     {
       "id": "1",
       "element": "corespring-drag-and-drop-inline-ng15",
-      "correctResponse": {
-        "aa_1": [
-          "c_1"
+      "title" : "Short Answer - Drag and Drop",
+      "correctResponse" : {
+        "aa_1" : [ 
+          "c_3"
         ]
       },
-      "feedback": {
-        "correctFeedbackType": "default",
-        "partialFeedbackType": "default",
-        "incorrectFeedbackType": "default"
+      "feedback" : {
+        "correctFeedbackType" : "default",
+        "partialFeedbackType" : "default",
+        "incorrectFeedbackType" : "default"
       },
-      "allowPartialScoring": false,
-      "partialScoring": [
+      "allowPartialScoring" : false,
+      "partialScoring" : [ 
         {}
       ],
-      "model": {
-        "answerAreaXhtml": "<div>​<answer-area-inline-csdndi id=\"aa_1\"></answer-area-inline-csdndi>​</div>",
-        "answerAreas": [
+      "model" : {
+        "answerAreaXhtml" : "<div><div>These clouds are called&nbsp;<answer-area-inline-csdndi id=\"aa_1\"></answer-area-inline-csdndi>&nbsp;​clouds.</div></div>",
+        "answerAreas" : [ 
           {
-            "id": "aa_1"
+            "id" : "aa_1"
           }
         ],
-        "choices": [
+        "choices" : [ 
           {
-            "label": "one",
-            "labelType": "text",
-            "id": "c_1"
-          },
+            "label" : "<div>cumulonimbus</div>",
+            "labelType" : "text",
+            "id" : "c_1",
+            "moveOnDrag" : true
+          }, 
           {
-            "label": "two",
-            "labelType": "text",
-            "id": "c_2"
-          },
+            "label" : "<div>cirrus</div>",
+            "labelType" : "text",
+            "id" : "c_2",
+            "moveOnDrag" : true
+          }, 
           {
-            "label": "three",
-            "labelType": "text",
-            "id": "c_3"
-          },
+            "label" : "<div>stratus</div>",
+            "labelType" : "text",
+            "id" : "c_3",
+            "moveOnDrag" : true
+          }, 
           {
-            "label": "four",
-            "labelType": "text",
-            "id": "c_4"
+            "label" : "<div>cumulus</div>",
+            "labelType" : "text",
+            "id" : "c_4",
+            "moveOnDrag" : true
           }
         ],
-        "config": {
-          "shuffle": false,
-          "choiceAreaLabel": "",
-          "choiceAreaLayout": "horizontal",
-          "choiceAreaPosition": "below"
+        "config" : {
+          "shuffle" : false,
+          "choiceAreaLabel" : "",
+          "choiceAreaLayout" : "horizontal",
+          "choiceAreaPosition" : "below"
         }
       }
     }
